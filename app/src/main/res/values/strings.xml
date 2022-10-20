@@ -1,0 +1,131 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Gastec</string>
+    <string name="logo">logo</string>
+    <string name="select1">Transaction Type</string>
+    <string name="select2">Tag</string>
+
+    <string name="button_back">Back</string>
+
+    <!--Create Login-->
+    <string name="toast1_create_login">All fields Required</string>
+    <string name="toast2_create_login">User Created Correctly</string>
+    <string name="toast3_create_login">Creation Failed</string>
+    <string name="toast4_create_login">User Already Exists</string>
+    <string name="toast5_create_login">Passwords are not matching</string>
+    <string name="toast6_create_login">Login Successful</string>
+    <string name="toast7_create_login">Login Failed</string>
+    <string name="email_login">E-mail</string>
+    <string name="password_login">Password</string>
+    <string name="button_create_user">Create User</string>
+
+    <!--Login-->
+    <string name="button_login">Login</string>
+    <string name="button_create_login">Create User</string>
+    <string name="button_note" tools:ignore="StringEscaping">If you do not have a user, please click in the &quot;Create User&quot; button.</string>
+
+    <!--Add Transactions-->
+    <string-array name="transaction_types">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+
+    <string-array name="tag">
+        <item>Housing</item>
+        <item>Transportation</item>
+        <item>Food</item>
+        <item>Utilities</item>
+        <item>Insurance</item>
+        <item>Healthcare</item>
+        <item>Saving &amp; Debts</item>
+        <item>Personal Spending</item>
+        <item>Entertainment</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="text_title">Title</string>
+    <string name="text_expense_when">When</string>
+    <string name="text_expense_amount">Amount</string>
+    <string name="text_expense_transaction_type">Transaction type</string>
+    <string name="text_expense_tag">Tag</string>
+    <string name="text_expense_note">Note</string>
+    <string name="text_save_transaction">Save Transaction</string>
+    <string name="text_edit_transaction">Edit Transaction</string>
+    <string name="text_back">Back</string>
+    <string name="text_expense_rupees">€</string>
+    <string name="text_edit">Edit</string>
+
+    <!--CustomAdapter función-->
+    <string name="income">Income</string>
+    <string name="expense">Expense</string>
+    <string name="housing">Housing</string>
+    <string name="transportation">Transportation</string>
+    <string name="food">Food</string>
+    <string name="utilities">Utilities</string>
+    <string name="insurance">Insurance</string>
+    <string name="healthcare">Healthcare</string>
+    <string name="saving">Saving &amp; Debts</string>
+    <string name="personal">Personal Spending</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="others">Others</string>
+
+    <!--Pages Name-->
+    <string name="text_title_details">Details</string>
+    <string name="text_title_about">About</string>
+    <string name="text_title_add">Add Transaction</string>
+    <string name="text_title_edit">Edit Transaction</string>
+    Edit Transaction
+
+    <!--Share image-->
+    <string name="text_share1">Image save succesfully</string>
+    <string name="text_amount">Amount: </string>
+    <string name="text_type">Type: </string>
+    <string name="text_tag"> Tag: </string>
+    <string name="text_date">Date: </string>
+    <string name="text_note">Note: </string>
+
+    <!--Intent-->
+    <string name="text_intent1">No data</string>
+
+    <!--Delete Transaction-->
+    <string name="text_dialog1">Delete </string>
+    <string name="text_dialog2">Are you sure you want to delete </string>
+    <string name="text_dialog3">Yes</string>
+    <string name="text_dialog4">No</string>
+
+    <!--Overall Page-->
+    <string name="text_total_balance">TOTAL BALANCE</string>
+    <string name="text_total_income">TOTAL INCOME</string>
+    <string name="text_total_expense">TOTAL EXPENSE</string>
+    <string name="text_recent_transactions">Recent Transactions</string>
+
+    <!--Menu-->
+    <string name="text_filter">Filter</string>
+    <string name="text_ui_mode">UI Mode</string>
+    <string name="text_about">About</string>
+    <string name="text_add">Add Transaction</string>
+    <string name="text_exit">Exit</string>
+
+    <!--About-->
+    <string name="text_about_license_title"><![CDATA[Attributions & License]]></string>
+    <string name="text2_about_title">About</string>
+    <string name="text2_about">This application has been designed to help you control personal expenses in the best way. We want you to enjoy our app!</string>
+    <string name="text_about_license">Licensed by Gastec</string>
+    <string name="text_about_visit_title">Visit</string>
+    <string name="text_about_visit_url"><u>https://es.ifp.gastec</u></string>
+    <string name="text_share_as_text">Share as Text</string>
+    <string name="text_share_as_image">Share as Image</string>
+    <string name="text_delete">Delete</string>
+    <string name="text_share">Share</string>
+
+    <!-- share transaction -->
+    <string name="text_transaction_empty_title">No Transaction Yet!</string>
+    <string name="text_transaction_empty_desc">After your first transaction you will be able to view it here</string>
+
+    <!--DataBaseHelper-->
+    <string name="toast1_add_transaction">Failed</string>
+    <string name="toast2_add_transaction">Added Successfully!</string>
+    <string name="toast1_update_transaction">Failed to Update.</string>
+    <string name="toast2_update_transaction">Successfully update!</string>
+    <string name="toast1_delete_transaction">Failed!</string>
+    <string name="toast2_delete_transaction">Sucessfully!</string>
+</resources>

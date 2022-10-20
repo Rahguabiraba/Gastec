@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="es.ifp.gastec.view.dashboard.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_addTransactionFragment"
+            app:destination="@id/addTransactionFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_aboutTransactionFragment"
+            app:destination="@id/aboutTransactionFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_detailsActivity"
+            app:destination="@id/detailsActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTransactionFragment"
+        android:name="es.ifp.gastec.view.add.addTransactionFragment"
+        android:label="fragment_add_transaction"
+        tools:layout="@layout/fragment_add_transaction" >
+        <action
+            android:id="@+id/action_addTransactionFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editTransactionFragment"
+        android:name="es.ifp.gastec.view.edit.editTransactionFragment"
+        android:label="fragment_edit_transaction"
+        tools:layout="@layout/fragment_edit_transaction" >
+        <action
+            android:id="@+id/action_editTransactionFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutTransactionFragment"
+        android:name="es.ifp.gastec.view.about.aboutTransactionFragment"
+        android:label="fragment_about_transaction"
+        tools:layout="@layout/fragment_about_transaction" >
+        <action
+            android:id="@+id/action_aboutTransactionFragment_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+    </fragment>
+    <activity
+        android:id="@+id/detailsActivity"
+        android:name="es.ifp.gastec.DetailsActivity"
+        android:label="activity_details"
+        tools:layout="@layout/activity_details" />
+</navigation>
